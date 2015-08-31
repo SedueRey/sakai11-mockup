@@ -65,4 +65,13 @@ $(document).ready( function(){
 
 	var t = setTimeout(warn, 2000);
 
+	$('#avisos').click( function(){
+		$('#overlay_notify').show();
+		$('#avisos').hide();
+	} );
+
+	$('#overlay_notify').click( function(){
+		$(this).fadeOut('slow');
+	} );
+
 });
