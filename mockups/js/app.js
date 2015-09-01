@@ -7,9 +7,11 @@ $(document).ready( function(){
 		var st = $(this).scrollTop();
 		if( st < lastScrollTop || st < 96 ){
 			$('#navigation_mobile').removeClass('showing');
+			$('#chat').removeClass('showing');
 			$('#sakai_header').removeClass('showing');
 		}else{
 			$('#navigation_mobile').addClass('showing');
+			$('#chat').addClass('showing');
 			$('#sakai_header').addClass('showing');
 		}
 	    lastScrollTop = st;
