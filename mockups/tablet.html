@@ -2,9 +2,9 @@
 <head>
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, user-scalable=yes">
 	<meta charset="UTF-8">
-	<title>dev.Mprhs::responsive</title>
+	<title>dev.Mprhs::tablet</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<link href='css/mobile.css' rel='stylesheet' type='text/css'>
+	<link href='css/tablet.css' rel='stylesheet' type='text/css'>
 </head>
 	<body>
 		<header id="sakai_header">
@@ -27,11 +27,15 @@
             <div id="avisos">1</div>
 		</div>
 		<nav id="sites">
+            <header>
+                <span class="uncollapsed"><i class="fa fa-angle-double-left"></i></span>
+                <span class="collapsed"><i class="fa fa-angle-double-right"></i></span>
+            </header>
 			<ul class="topnav" id="topnav" role="menubar" aria-label="Los sitios empiezan aquí">
 				<li>
 					<a href="#" role="menuitem" aria-haspopup="true"><span>Mi Sitio</span></a>
 				</li>
-				<li>
+				<li class="is-selected">
 					<a href="#/~/2427_G_2014_N_N" title="(2427) DISEÑO Y EVALUACIÓN DE MEDIOS Y MATERIALES DIDÁCTICOS  [14/15]" role="menuitem" aria-haspopup="true">(2427) Diseño y evaluación de medios y materiales didácticos  [14/15]</a>																				
 				</li>
 				<li>
@@ -56,11 +60,15 @@
 					<a href="#/~/COLLAB-plahini8rircvm3r4vc0j53" title="GITE" role="menuitem" aria-haspopup="true">GITE</a>										
 				</li>
 				<li>
-					<a href="#/~/879P01_A_2014" title="EIDUM PROGRAMA DE DOCTORADO EN TECNOLOGÍA EDUCATIVA  [14/15]" role="menuitem" aria-haspopup="true">Eidum programa de doctorado en tecnología educativa  [14/15]</a>										
-				</li>
+                    <a href="#/~/879P01_A_2014" title="EIDUM PROGRAMA DE DOCTORADO EN TECNOLOGÍA EDUCATIVA  [14/15]" role="menuitem" aria-haspopup="true">Eidum programa de doctorado en tecnología educativa  [14/15]</a>                                      
+                </li>
 			</ul>
 		</nav>
 		<nav id="toolMenu" role="navigation" aria-label="Tools list begins here" class="Mrphs-toolsNav__menu">
+            <header>
+                <span class="uncollapsed"><i class="fa fa-angle-double-left"></i></span>
+                <span class="collapsed"><i class="fa fa-angle-double-right"></i></span>
+            </header>
 		    <ul>		        
 	            <li class="Mrphs-toolsNav__menuitem is-current">
 	                <a class="Mrphs-toolsNav__menuitem--link " href="#/page-reset/%7Eadmin-100" title="Home" role="presentation">
@@ -168,48 +176,49 @@
 	        </ul>
 	    </nav>
 	    <main id="tool">
-                <div class="tool">
-                    <header>
-                        <div class="toolbar">
-                            <i class="fa fa-link"></i>
-                            <i class="fa fa-question-circle"></i>
-                        </div>
-                        Message of the day
-                    </header>
-                    <div class="content">
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel diam odio. Nulla maximus facilisis urna, sit amet scelerisque justo malesuada vel. Fusce a vestibulum nibh. Donec eget mattis metus, sed posuere ante. Nam a sem in sem pellentesque efficitur. Aenean quis neque venenatis, venenatis turpis ultricies, dapibus libero. Integer turpis orci, malesuada vel ipsum sed, sodales auctor turpis. Aliquam sodales laoreet nibh, quis condimentum nulla dignissim quis. Pellentesque commodo pharetra libero, vel auctor elit. Maecenas ut libero dolor. In ut blandit augue.
-                        </p>
-                        <p>
-                        Morbi condimentum diam non purus elementum porta. Cras imperdiet magna eget sem bibendum, et aliquet sapien fermentum. Donec lobortis id tortor at efficitur. Donec sed molestie nisi. Maecenas dolor risus, aliquet nec ex quis, fringilla ullamcorper metus. Quisque eget magna sed velit placerat efficitur eu rhoncus lectus. Mauris facilisis quis diam sit amet molestie. Sed feugiat iaculis consectetur. Quisque nisi est, gravida et pretium ac, vehicula id sapien. Vestibulum non magna sit amet quam lacinia tempus. Praesent tempus augue eget ipsum dictum, ac ornare orci condimentum.
-                        </p>
-                        <p>
-                        Donec ut risus blandit lectus facilisis faucibus. Etiam luctus eu tortor vitae faucibus. Morbi eget sapien dolor. Nullam ut urna ultrices, ultricies risus at, lobortis quam. Quisque sollicitudin mi ut porta consequat. Sed eleifend ac lacus vel rhoncus. In ullamcorper ultricies elit at pulvinar. Maecenas sit amet ligula lobortis, tristique risus id, feugiat tortor. Phasellus ultrices ullamcorper arcu id condimentum. Donec sollicitudin ante turpis, feugiat aliquam tortor tincidunt et. Phasellus at vestibulum massa, ac varius ex. Fusce hendrerit mollis volutpat. Mauris tristique non turpis quis pretium. Vivamus vestibulum porttitor orci, ut varius purus molestie at. Mauris ultrices quam risus, lacinia interdum turpis volutpat in.
-                        </p>
+            <div class="tool">
+                <header>
+                    <div class="toolbar">
+                        <i class="fa fa-link"></i>
+                        <i class="fa fa-question-circle"></i>
                     </div>
+                    Message of the day
+                </header>
+                <div class="content">
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel diam odio. Nulla maximus facilisis urna, sit amet scelerisque justo malesuada vel. Fusce a vestibulum nibh. Donec eget mattis metus, sed posuere ante. Nam a sem in sem pellentesque efficitur. Aenean quis neque venenatis, venenatis turpis ultricies, dapibus libero. Integer turpis orci, malesuada vel ipsum sed, sodales auctor turpis. Aliquam sodales laoreet nibh, quis condimentum nulla dignissim quis. Pellentesque commodo pharetra libero, vel auctor elit. Maecenas ut libero dolor. In ut blandit augue.
+                    </p>
+                    <p>
+                    Morbi condimentum diam non purus elementum porta. Cras imperdiet magna eget sem bibendum, et aliquet sapien fermentum. Donec lobortis id tortor at efficitur. Donec sed molestie nisi. Maecenas dolor risus, aliquet nec ex quis, fringilla ullamcorper metus. Quisque eget magna sed velit placerat efficitur eu rhoncus lectus. Mauris facilisis quis diam sit amet molestie. Sed feugiat iaculis consectetur. Quisque nisi est, gravida et pretium ac, vehicula id sapien. Vestibulum non magna sit amet quam lacinia tempus. Praesent tempus augue eget ipsum dictum, ac ornare orci condimentum.
+                    </p>
+                    <p>
+                    Donec ut risus blandit lectus facilisis faucibus. Etiam luctus eu tortor vitae faucibus. Morbi eget sapien dolor. Nullam ut urna ultrices, ultricies risus at, lobortis quam. Quisque sollicitudin mi ut porta consequat. Sed eleifend ac lacus vel rhoncus. In ullamcorper ultricies elit at pulvinar. Maecenas sit amet ligula lobortis, tristique risus id, feugiat tortor. Phasellus ultrices ullamcorper arcu id condimentum. Donec sollicitudin ante turpis, feugiat aliquam tortor tincidunt et. Phasellus at vestibulum massa, ac varius ex. Fusce hendrerit mollis volutpat. Mauris tristique non turpis quis pretium. Vivamus vestibulum porttitor orci, ut varius purus molestie at. Mauris ultrices quam risus, lacinia interdum turpis volutpat in.
+                    </p>
                 </div>
-                <div class="tool">
-                    <header>
-                        <div class="toolbar">
-                            <i class="fa fa-link"></i>
-                            <i class="fa fa-question-circle"></i>
-                        </div>
-                        Welcome!
-                    </header>
-                    <div class="content">
-                        <h1>Welcome to Sakai</h1>
-                        <p>
-                        Sed aliquet dignissim mi quis molestie. Mauris volutpat mi sit amet fermentum laoreet. Suspendisse ullamcorper quis nibh id fringilla. Sed viverra gravida orci sed semper. Nullam convallis diam et dolor venenatis lobortis. Nullam egestas elit massa, ut feugiat nisl tristique placerat. In hac habitasse platea dictumst. Nam porta vestibulum purus, ut condimentum nunc tempus vel. Cras sagittis ex laoreet, vestibulum purus sed, finibus libero. Pellentesque ut aliquam eros. Vestibulum ut congue turpis, finibus mattis magna. Vivamus sollicitudin blandit eleifend. Donec vel turpis tincidunt, laoreet ipsum quis, molestie purus. Nulla ex felis, ullamcorper in arcu nec, pellentesque ornare erat.
-                        </p>
-                        <p>
-                        Nullam ut mi quis arcu ultricies elementum. Aliquam neque diam, aliquam sit amet leo ac, laoreet ultrices leo. Morbi pellentesque consequat tellus sit amet imperdiet. Nullam sed eleifend ante. Sed quis mi dui. Aenean id arcu massa. Mauris et sapien condimentum, ullamcorper lorem malesuada, varius ipsum. Vivamus placerat libero ante, in rhoncus diam sollicitudin sit amet. Aenean semper dolor id condimentum finibus. Curabitur luctus ornare nulla, sit amet lacinia neque. In non dolor dolor.
-                        </p>
+            </div>
+            <div class="tool">
+                <header>
+                    <div class="toolbar">
+                        <i class="fa fa-link"></i>
+                        <i class="fa fa-question-circle"></i>
                     </div>
+                    Welcome!
+                </header>
+                <div class="content">
+                    <h1>Welcome to Sakai</h1>
+        	    	<p>
+        	    	Sed aliquet dignissim mi quis molestie. Mauris volutpat mi sit amet fermentum laoreet. Suspendisse ullamcorper quis nibh id fringilla. Sed viverra gravida orci sed semper. Nullam convallis diam et dolor venenatis lobortis. Nullam egestas elit massa, ut feugiat nisl tristique placerat. In hac habitasse platea dictumst. Nam porta vestibulum purus, ut condimentum nunc tempus vel. Cras sagittis ex laoreet, vestibulum purus sed, finibus libero. Pellentesque ut aliquam eros. Vestibulum ut congue turpis, finibus mattis magna. Vivamus sollicitudin blandit eleifend. Donec vel turpis tincidunt, laoreet ipsum quis, molestie purus. Nulla ex felis, ullamcorper in arcu nec, pellentesque ornare erat.
+        	    	</p>
+        	    	<p>
+        	    	Nullam ut mi quis arcu ultricies elementum. Aliquam neque diam, aliquam sit amet leo ac, laoreet ultrices leo. Morbi pellentesque consequat tellus sit amet imperdiet. Nullam sed eleifend ante. Sed quis mi dui. Aenean id arcu massa. Mauris et sapien condimentum, ullamcorper lorem malesuada, varius ipsum. Vivamus placerat libero ante, in rhoncus diam sollicitudin sit amet. Aenean semper dolor id condimentum finibus. Curabitur luctus ornare nulla, sit amet lacinia neque. In non dolor dolor.
+        	    	</p>
                 </div>
+            </div>
 	    </main>
 		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="js/jquery.touchSwipe.min.js"></script>
-		<script src="js/app.js"></script>
+        <script src="js/jquery.mousewheel.min.js"></script>
+		<script src="js/appTablet.js"></script>
         <div id="div_overlay"></div>
         <div id="overlay_notify">
             <div class="popup">

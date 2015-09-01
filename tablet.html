@@ -2,23 +2,29 @@
 <head>
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, user-scalable=no">
 	<meta charset="UTF-8">
-	<title>dev.Mprhs::responsive</title>
+	<title>dev.Mprhs::mobile</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<style>
 	body{
+		background-color: #F0F0F0;
 		font-family: 'Open Sans', sans-serif;
 		font-size: 14px;
 		line-height: 1.4;
 	}
-	a{
-		color: #457299;
+	#ipad{
+		background: #FFF;
+		position: absolute;
+		top: calc( 50% - 384px );
+		left : calc(50% - 512px);
+		width: 1024px;
+		height: 768px;
 	}
 	</style>
 </head>
 <body>
-	<h1>Versions</h1>
-	<p><a href="mobile.html">Mobile</a></p>
-	<p><a href="tablet.html">Tablet and desktop</a> and <a href="tablet_um.html">(University of Murcia version)</a></p>
+	<div id="ipad">
+		<iframe src="mockups/tablet.html" width="100%" height="100%" frameborder="0"></iframe>
+	</div>
 </body>
 </html>
