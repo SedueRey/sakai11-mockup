@@ -1,0 +1,62 @@
+//Google family Fonts URL
+$font-family-url: "//fonts.googleapis.com/css?family=Noto+Sans:400,700" !default;
+$header-font-family-url: "//fonts.googleapis.com/css?family=Raleway:700" !default;
+
+@import url( #{$font-family-url}    );
+@import url( #{$header-font-family-url} );
+
+@import "compass/reset";
+@import "compass/css3";
+
+body{
+	background: #F9F9F9;
+	color: #242424;
+	font-family: "Noto Sans", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.55;
+	text-rendering: optimizeLegibility; 
+}
+
+p{
+	margin: 8px 0 1em 0;
+}
+
+h1,h2,h3,h4{
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	letter-spacing: -1px;
+	line-height: 1.05;
+	margin: 0.75em 0 0.5em 0;
+}
+
+h1{
+	font-size: 240%;
+}
+
+h2{
+	font-size: 200%;
+}
+
+h3{
+	font-size: 180%;
+}
+
+h4{
+	font-size: 140%;
+}
+
+em, i{
+	font-style: oblique;
+}
+
+strong, b{
+	font-weight: 700;
+	letter-spacing: -0.2px;
+}
+
+.container{
+	margin: 0 auto;
+	padding: 1em;
+	max-width: 960px;
+	background: #FFF;
+}
